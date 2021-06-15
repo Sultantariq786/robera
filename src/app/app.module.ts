@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { TopheaderComponent } from './topheader/topheader.component';
+import { BottomfooterComponent } from './bottomfooter/bottomfooter.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { TopheaderComponent } from './topheader/topheader.component';
   declarations: [
     AppComponent,
     HomepageComponent,
-    TopheaderComponent
+    TopheaderComponent,
+    BottomfooterComponent
   ],
   bootstrap: [
     AppComponent
