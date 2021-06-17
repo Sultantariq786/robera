@@ -151,3 +151,7 @@ app-top-bar h1 {
 .f40 {
   font-size: 40px;
 }
+
+.flickity-viewport {
+  position: relative !important;
+}
