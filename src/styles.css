@@ -155,3 +155,8 @@ app-top-bar h1 {
 .flickity-viewport {
   position: relative !important;
 }
+
+.img-border-rad {
+  border: 3px solid #d4d4d4;
+  border-radius: 15px;
+}
