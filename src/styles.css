@@ -23,7 +23,7 @@ router-outlet + *  {
 
 /* Text */
 
-h1 {
+/* h1 {
   font-size: 32px;
 }
 
@@ -37,7 +37,7 @@ h1, h2 {
 
 p {
   font-size: 14px;
-}
+} */
 
 /* Hyperlink */
 
@@ -161,7 +161,26 @@ app-top-bar h1 {
   border-radius: 15px;
 }
 
+.morecolors {
+  color: #ff0000;
+  font-size: 0.65rem;
+}
 
+.r-prev {
+  top: 48%;
+  position: absolute;
+  left: 0;
+}
+
+.r-next {
+  top: 48%;
+  position: absolute;
+  right: 0;
+}
+
+i.fa.fa-chevron-left, i.fa.fa-chevron-right {
+  color: #989898;
+}
 
 /* Theme Override CSS */
 
