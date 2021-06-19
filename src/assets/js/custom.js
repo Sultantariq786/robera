@@ -29,7 +29,9 @@ $(function() {
                 transform: ""
             })
         }
-    })
+    });
+
+    $('.jarallax').jarallax('destroy');
 });
 
 // alert('Hi!');
