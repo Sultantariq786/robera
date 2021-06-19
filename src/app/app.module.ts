@@ -1,3 +1,4 @@
+import { SharedService } from './services/shared.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
@@ -18,6 +19,7 @@ import { CartComponent } from './cart/cart.component';
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    SharedService,
     RouterModule.forRoot([
       { path: 'home', component: HomepageComponent },
       { path: 'women', component: WomenComponent },
