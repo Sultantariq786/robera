@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Lehenga",
+    "tags": ["sale", "old", "topselling"],
+    "price": "",
+    "colors": ["red", "green", "blue"],
+    "articles": [
+      {
+        "images": ["https://cdn.example.com/images/image1.png"],
+        "description": "Article 1",
+        "sizes": ["small", "large", "medium"]
+      },
+      {
+        "images": ["https://cdn.example.com/images/image1.png"],
+        "description": "Article 1",
+        "sizes": ["small", "large", "medium"]
+      }
+    ],
+    "description": "",
+    "discountedPrice": "",
+    "defaultArticle": "1",
+    "inStock": false
+  },
+  {
+    "name": "Saare",
+    "tags": ["sale", "old"],
+    "price": "",
+    "sizes": ["small", "large", "medium"],
+    "colors": ["red", "green", "blue"],
+    "articles": [{}],
+    "description": "",
+    "discountedPrice": "",
+    "defaultArticle": "1"
+  }
+]
