@@ -4,15 +4,15 @@
         <div class="col-12">
 
           <!-- Heading -->
-          <h3 class="text-center text-white">Women's Clothing</h3>
+          <h3 class="text-center text-white">{{womensPgResponse?.pageHeading}}</h3>
 
           <!-- Breadcrumb -->
           <ol class="breadcrumb justify-content-center mb-0 text-center text-white font-size-xs">
             <li class="breadcrumb-item">
-              <a class="text-reset" href="#">Home</a>
+              <a class="text-reset" href="#">{{womensPgResponse?.breadcHome}}</a>
             </li>
             <li class="breadcrumb-item active">
-              Women's Clothing
+              {{womensPgResponse?.breadcActive}}
             </li>
           </ol>
 
@@ -30,12 +30,7 @@
 
           <!-- Categories -->
           <nav class="nav nav-overflow mb-6 mb-md-0">
-            <a class="nav-link active" data-toggle="tab" href="#">All</a>
-            <a class="nav-link" data-toggle="tab" href="#">Dresses</a>
-            <a class="nav-link" data-toggle="tab" href="#">Coats</a>
-            <a class="nav-link" data-toggle="tab" href="#">T-Shirts</a>
-            <a class="nav-link" data-toggle="tab" href="#">Jeans</a>
-            <a class="nav-link" data-toggle="tab" href="#">Jumpers</a>
+            <a *ngFor="let filter of womensPgResponse?.filterNavs; first as isFirst" [class.active]="isFirst" class="nav-link" data-toggle="tab" href="javascript:void(0);">{{filter}}</a> <!-- add active class on 1st li -->
           </nav>
 
         </div>
@@ -43,14 +38,14 @@
 
           <!-- Filter -->
           <a class="text-body" data-toggle="collapse" href="#collapseFilter" role="button">
-            <i class="fe fe-list mr-2"></i> Filter
+            <i class="fe fe-list mr-2"></i> {{womensPgResponse?.filterLable}}
           </a>
 
           <!-- Sort -->
           <div class="dropdown ml-6">
 
             <!-- Toggle -->
-            <a class="dropdown-toggle text-body" data-toggle="dropdown" href="#">Default</a>
+            <a class="dropdown-toggle text-body" data-toggle="dropdown" href="#">{{womensPgResponse?.sortLabel}}</a>
 
             <!-- Menu -->
             <form class="dropdown-menu">
@@ -59,11 +54,11 @@
 
                   <!-- Form group -->
                   <div class="form-group-overflow">
-                    <div class="custom-control custom-control-text mb-3">
-                      <input class="custom-control-input" id="sortOne" name="sort" type="radio" value="Default">
-                      <label class="custom-control-label" for="sortOne">Default</label>
+                    <div *ngFor="let sortValue of womensPgResponse?.sortBy; index as i; last as isLast" [ngClass]="isLast ? '' : 'mb-3'" class="custom-control custom-control-text">
+                      <input class="custom-control-input" id="sort{{i}}" name="sort" type="radio" value="Default">
+                      <label class="custom-control-label" for="sort{{i}}">{{sortValue}}</label>
                     </div>
-                    <div class="custom-control custom-control-text mb-3">
+                    <!-- <div class="custom-control custom-control-text mb-3">
                       <input class="custom-control-input" id="sortTwo" name="sort" type="radio" value="Newest">
                       <label class="custom-control-label" for="sortTwo">Newest</label>
                     </div>
@@ -78,7 +73,7 @@
                     <div class="custom-control custom-control-text">
                       <input class="custom-control-input" id="sortFive" name="sort" type="radio" value="Highest Price">
                       <label class="custom-control-label" for="sortFive">Highest Price</label>
-                    </div>
+                    </div> -->
                   </div>
 
                 </div>
@@ -1171,7 +1166,7 @@
 
               <!-- Button -->
               <a class="btn btn-sm btn-outline-dark" href="#!">
-                Load more
+                {{womensPgResponse?.LoadMoreBtn}}
               </a>
 
             </div>
