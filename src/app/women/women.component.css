@@ -1,0 +1,4 @@
+/* To Disable anchor */
+a.disabled {
+    pointer-events: none;
+}

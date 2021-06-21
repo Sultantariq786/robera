@@ -1,21 +1,23 @@
 [
   {
     "category": "Lehenga",
+    "material": "Silk",
     "varieties": [
       {
+        "sku":"#61590437",
         "name": "Blue Bridal Lehnga",
         "tags": ["Sale", "New", "Topselling"],
         "price": "",
         "colors": ["red", "green", "blue"],
         "variants": [
           {
-            "images": ["./assets/img/products/product-5.jpg"],
+            "images": ["./assets/img/products/product-48.jpg"],
             "varName": "",
             "varDescription": "Article 1",
             "sizes": ["small", "large", "medium"]
           },
           {
-            "images": ["https://cdn.example.com/images/image1.png"],
+            "images": ["./assets/img/products/product-48-y.jpg"],
             "varName": "",
             "varDescription": "Article 2",
             "sizes": ["small", "large", "medium"]
@@ -24,9 +26,11 @@
         "description": "",
         "discountedPrice": "",
         "defaultArticle": "1",
-        "inStock": false
+        "inStock": false,
+        "season": "All Season"
       }
-    ],
+    ]
+
   }
 
 ]
