@@ -5,8 +5,9 @@
   "filterNavs":["All", "Suits", "Gowns", "Sarees", "Lehngas", "Kurtas" ],
   "filterLable": "Filter",
   "sortLabel": "Default",
-  "sortBy": ["Default", "Newest", "Most Popular"],
+  "sortBy": ["Default", "Newest", "Sale"],
   "products": [],
-  "LoadMoreBtn": "Load more"
+  "LoadMoreBtn": "Load more",
+  "images": ["./assets/img/products/product-48.jpg"]
    
 }
