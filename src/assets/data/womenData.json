@@ -1,0 +1,12 @@
+{
+  "pageHeading": "Women's Clothing",
+  "breadcHome": "Home",
+  "breadcActive": "Women's Clothing",
+  "filterNavs":["All", "Suits", "Gowns", "Sarees", "Lehngas", "Kurtas" ],
+  "filterLable": "Filter",
+  "sortLabel": "Default",
+  "sortBy": ["Default", "Newest", "Most Popular"],
+  "products": [],
+  "LoadMoreBtn": "Load more"
+   
+}
