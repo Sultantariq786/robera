@@ -97,13 +97,15 @@
 
           <!-- Image -->
           <div class="card-img flickity-enabled" data-flickity="{&quot;draggable&quot;: false}" id="productOneImg" tabindex="0">
-            
-            
-          <div class="flickity-viewport" style="height: 299.859px; touch-action: pan-y;"><div class="flickity-slider" style="left: 0px; transform: translateX(-200%);"><a class="d-block w-100 is-selected" href="product.html" style="position: absolute; left: 200%;">
-              <img class="card-img-top" src="assets/img/products/product-5.jpg" alt="...">
-            </a><a class="d-block w-100" href="product.html" aria-hidden="true" style="position: absolute; left: 100%;">
-              <img class="card-img-top" src="assets/img/products/product-142.jpg" alt="...">
-            </a></div></div></div>
+            <div class="flickity-viewport" style="height: 299.859px; touch-action: pan-y;">
+              <div class="flickity-slider" style="left: 0px; transform: translateX(-200%);"><a class="d-block w-100 is-selected"
+                  href="product.html" style="position: absolute; left: 200%;">
+                  <img class="card-img-top" src="assets/img/products/product-5.jpg" alt="...">
+                </a><a class="d-block w-100" href="product.html" aria-hidden="true" style="position: absolute; left: 100%;">
+                  <img class="card-img-top" src="assets/img/products/product-142.jpg" alt="...">
+                </a></div>
+            </div>
+          </div>
 
           <!-- Collapse -->
           <div class="card-collapse-parent" style="">
@@ -111,7 +113,7 @@
             <!-- Body -->
             <div class="card-body px-0 pb-0 bg-white">
               <div class="row no-gutters">
-                <div class="col">
+                <div class="col mb-1">
 
                   <!-- Title -->
                   <a class="d-block font-weight-bold text-body" href="product.html">
@@ -124,12 +126,34 @@
                   </a>
 
                 </div>
-                <div class="col-auto">
+                <div class=" mb-1 col-auto">
 
                   <!-- Price -->
-                  <div class="font-size-sm font-weight-bold text-muted">
-                    ₹7575.00
+                  <div class="font-size-xs font-weight-bold text-gray-350 text-decoration-line-through">
+                    ₹5500.00
                   </div>
+                  <div class="font-size-sm font-weight-bold text-primary">
+                    ₹4250.00
+                  </div>
+
+                  <!-- Rating -->
+                  <!-- <div class="rating font-size-xxs text-dark justify-content-center" data-value="4">
+                    <div class="rating-item">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="rating-item">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="rating-item">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="rating-item">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="rating-item">
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div> -->
 
                 </div>
               </div>
@@ -139,17 +163,39 @@
             <div class="card-collapse collapse" style="">
               <div class="card-footer px-0 bg-white">
                 <form>
-                  <div class="mb-1">
-                    <div class="custom-control custom-control-inline custom-control-color">
-                      <input type="radio" id="productOneColorOne" name="productOneColor" class="custom-control-input" checked="">
-                      <label class="custom-control-label" data-toggle="flickity" data-target="#productOneImg" data-slide="0" style="color: beige" for="productOneColorOne"></label>
+                  <div class="row no-gutters">
+                    <div class="col mt-2">
+                      <div class="custom-control custom-control-inline custom-control-color">
+                        <input type="radio" id="productOneColorOne" name="productOneColor" class="custom-control-input" checked="">
+                        <label class="custom-control-label" data-toggle="flickity" data-target="#productOneImg" data-slide="0" style="color: darkblue" for="productOneColorOne"></label>
+                      </div>
+                      <div class="custom-control custom-control-inline custom-control-color ml-n2">
+                        <input type="radio" id="productOneColorTwo" name="productOneColor" class="custom-control-input">
+                        <label class="custom-control-label" data-toggle="flickity" data-target="#productOneImg" data-slide="1" style="color: black" for="productOneColorTwo"></label>
+                      </div>
+                      <div class="custom-control custom-control-inline custom-control-color ml-n2">
+                        <input type="radio" id="productOneColorThree" name="productOneColor" class="custom-control-input">
+                        <label class="custom-control-label" data-toggle="flickity" data-target="#productOneImg" data-slide="2" style="color: darkred" for="productOneColorThree"></label>
+                      </div>
+                      <div class="custom-control custom-control-inline custom-control-color ml-n2">
+                        <input type="radio" id="productOneColorFour" name="productOneColor" class="custom-control-input">
+                        <label class="custom-control-label" data-toggle="flickity" data-target="#productOneImg" data-slide="3" style="color: darkgreen" for="productOneColorFour"></label>
+                      </div>
                     </div>
-                    <div class="custom-control custom-control-inline custom-control-color ml-n2">
-                      <input type="radio" id="productOneColorTwo" name="productOneColor" class="custom-control-input">
-                      <label class="custom-control-label" data-toggle="flickity" data-target="#productOneImg" data-slide="1" style="color: black" for="productOneColorTwo"></label>
+                    
+                    <div class="col-auto">
+                      <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                        <img src="../../assets/img/icons/amazon.jpg" width="30" height="36" title="Shop on Amazon" />
+                      </a>
+                      <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                        <img src="../../assets/img/icons/flipkart.jpg" width="30" height="36" title="Shop on Flipkart" />
+                      </a>
+                      <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                        <img src="../../assets/img/icons/myntra.jpg" width="30" height="36" title="Shop on Myntra" />
+                      </a>
                     </div>
                   </div>
-                  <div>
+                  <!-- <div>
                     <div class="custom-control custom-control-inline custom-control-text font-size-xs">
                       <input type="radio" id="productOneSizeOne" name="sizeRadio" class="custom-control-input">
                       <label class="custom-control-label" for="productOneSizeOne">6</label>
@@ -170,6 +216,11 @@
                       <input type="radio" id="productOneSizeFive" name="sizeRadio" class="custom-control-input">
                       <label class="custom-control-label" for="productOneSizeFive">8.5</label>
                     </div>
+                  </div> -->
+                  <div class="card-footer px-0 pt-0 bg-white">
+                    <!-- <div class="mb-1 font-weight-bold text-muted">
+                      Shop this on:
+                    </div> -->
                   </div>
                 </form>
               </div>

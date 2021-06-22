@@ -1,33 +1,54 @@
 [
   {
     "category": "Lehenga",
-    "material": "Silk",
     "varieties": [
       {
         "sku":"#61590437",
         "name": "Blue Bridal Lehnga",
         "tags": ["Sale", "New", "Topselling"],
+        "material": "Silk",
+        "description": "",
         "price": "",
-        "colors": ["red", "green", "blue"],
+        "discountedPrice": "",
+        "defaultArticle": "1",
+        "season": "All Season",
+        "sizeAvailable": ["M", "L"],
+        "colorsAvailable": ["Red", "Green"],
+        "shopThisOn": [
+          {
+            "websites": "Amazon",
+            "webIcon": "../../assets/img/icons/amazon.jpg",
+            "shoppingUrl": ""
+          },
+          {
+            "websites": "Flipkart",
+            "webIcon": "../../assets/img/icons/flipkart.jpg",
+            "shoppingUrl": ""
+          },
+          {
+            "websites": "Myntra",
+            "webIcon": "../../assets/img/icons/myntra.jpg",
+            "shoppingUrl": ""
+          }
+        ],
         "variants": [
           {
+            "inStock": true,
             "images": ["./assets/img/products/product-48.jpg"],
             "varName": "",
             "varDescription": "Article 1",
-            "sizes": ["small", "large", "medium"]
+            "color": "red",
+            "size": "M"
           },
           {
+            "inStock": true,
             "images": ["./assets/img/products/product-48-y.jpg"],
             "varName": "",
             "varDescription": "Article 2",
-            "sizes": ["small", "large", "medium"]
+            "color": "green",
+            "size": "L"
           }
-        ],
-        "description": "",
-        "discountedPrice": "",
-        "defaultArticle": "1",
-        "inStock": false,
-        "season": "All Season"
+        ]
       }
     ]
 
