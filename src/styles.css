@@ -63,10 +63,15 @@ input {
 
 label {
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 4px;
   display: block;
   text-transform: uppercase;
+}
+
+.form-select {
+  width: 100%;
+  height: 52px;
 }
 
 /* Button */
