@@ -1,57 +1,82 @@
-[
-  {
-    "category": "Lehenga",
-    "varieties": [
+{
+  "products": {
+    "prodcutCategories": [
       {
-        "sku":"#61590437",
-        "name": "Blue Bridal Lehnga",
-        "tags": ["Sale", "New", "Topselling"],
-        "material": "Silk",
-        "description": "",
-        "price": "",
-        "discountedPrice": "",
-        "defaultArticle": "1",
-        "season": "All Season",
-        "sizeAvailable": ["M", "L"],
-        "colorsAvailable": ["Red", "Green"],
-        "shopThisOn": [
+        "clothings": [
           {
-            "websites": "Amazon",
-            "webIcon": "../../assets/img/icons/amazon.jpg",
-            "shoppingUrl": ""
-          },
-          {
-            "websites": "Flipkart",
-            "webIcon": "../../assets/img/icons/flipkart.jpg",
-            "shoppingUrl": ""
-          },
-          {
-            "websites": "Myntra",
-            "webIcon": "../../assets/img/icons/myntra.jpg",
-            "shoppingUrl": ""
-          }
-        ],
-        "variants": [
-          {
-            "inStock": true,
-            "images": ["./assets/img/products/product-48.jpg"],
-            "varName": "",
-            "varDescription": "Article 1",
-            "color": "red",
-            "size": "M"
-          },
-          {
-            "inStock": true,
-            "images": ["./assets/img/products/product-48-y.jpg"],
-            "varName": "",
-            "varDescription": "Article 2",
-            "color": "green",
-            "size": "L"
+            "women": [
+              {
+                "category": "Lehenga",
+                "varieties": [
+                  {
+                    "name": "Bridal Lehnga",
+                    "tags": [
+                      "Sale",
+                      "New",
+                      "Topselling"
+                    ],
+                    "material": "Silk",
+                    "description": "",
+                    "price": "",
+                    "discountedPrice": "",
+                    "defaultArticle": "1",
+                    "season": "All Season",
+                    "sizeAvailable": [
+                      "M",
+                      "L"
+                    ],
+                    "colorsAvailable": [
+                      "Red",
+                      "Green"
+                    ],
+                    "shopThisOn": [
+                      {
+                        "websites": "Amazon",
+                        "webIcon": "../../assets/img/icons/amazon.jpg",
+                        "shoppingUrl": ""
+                      },
+                      {
+                        "websites": "Flipkart",
+                        "webIcon": "../../assets/img/icons/flipkart.jpg",
+                        "shoppingUrl": ""
+                      },
+                      {
+                        "websites": "Myntra",
+                        "webIcon": "../../assets/img/icons/myntra.jpg",
+                        "shoppingUrl": ""
+                      }
+                    ],
+                    "variants": [
+                      {
+                        "inStock": true,
+                        "images": [
+                          "./assets/img/products/product-48.jpg"
+                        ],
+                        "varName": "",
+                        "varDescription": "Article 1",
+                        "color": "red",
+                        "size": "M",
+                        "sku": "#61590437"
+                      },
+                      {
+                        "inStock": true,
+                        "images": [
+                          "./assets/img/products/product-48-y.jpg"
+                        ],
+                        "varName": "",
+                        "varDescription": "Article 2",
+                        "color": "green",
+                        "size": "L",
+                        "sku": "#615907"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
     ]
-
   }
-
-]
+}

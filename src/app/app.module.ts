@@ -11,6 +11,7 @@ import { BottomfooterComponent } from './bottomfooter/bottomfooter.component';
 import { WomenComponent } from './women/women.component';
 import { ProductComponent } from './product/product.component';
 import { CartComponent } from './cart/cart.component';
+import { AddproductComponent } from './addproduct/addproduct.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { CartComponent } from './cart/cart.component';
       { path: 'home', component: HomepageComponent },
       { path: 'women', component: WomenComponent },
       { path: 'product', component: ProductComponent },
+      { path: 'addproduct', component: AddproductComponent },
       { path: 'cart', component: CartComponent },
       { path: '**', component: HomepageComponent },
     ])
@@ -33,7 +35,8 @@ import { CartComponent } from './cart/cart.component';
     BottomfooterComponent,
     WomenComponent,
     ProductComponent,
-    CartComponent
+    CartComponent,
+    AddproductComponent
   ],
   bootstrap: [
     AppComponent
