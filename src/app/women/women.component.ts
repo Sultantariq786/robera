@@ -31,7 +31,7 @@ export class WomenComponent implements OnInit {
     this.productService.getProductsData().subscribe((response: any) => {
       if (response) {
         this.womenProducts = response;
-        console.log('Women Prod ', this.womenProducts);
+        console.log('Women Prod received', this.womenProducts);
       }
     });
   }

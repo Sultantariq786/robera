@@ -15,16 +15,10 @@ export class ProductService {
 
     constructor(private http: HttpClient) { }
 
+    // Dummy JSON Call
     public getProductsData(){
       return this.http.get(this.url);
     }
-
-    // Dummy JSON Call
-    // getProductsData() {
-    //     let response;
-    //     response = require('../../assets/data/data.json');
-    //     return (new Observable(response));
-    // }
 
      // Actual Service Call
     //  getProductsData(): Observable<any> {

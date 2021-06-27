@@ -9,25 +9,26 @@
                 "category": "Lehenga",
                 "varieties": [
                   {
-                    "name": "Bridal Lehnga",
+                    "name": "Georgette Silk Suit",
                     "tags": [
                       "Sale",
                       "New",
                       "Topselling"
                     ],
-                    "material": "Silk",
+                    "material": "Georgette",
                     "description": "",
-                    "price": "",
-                    "discountedPrice": "",
-                    "defaultArticle": "1",
+                    "price": "4300",
+                    "discountedPrice": "3485",
+                    "defaultArticle": "Article_1",
                     "season": "All Season",
                     "sizeAvailable": [
                       "M",
-                      "L"
+                      "L",
+                      "XL"
                     ],
                     "colorsAvailable": [
-                      "Red",
-                      "Green"
+                      "Blue",
+                      "Yellow"
                     ],
                     "shopThisOn": [
                       {
@@ -52,10 +53,14 @@
                         "images": [
                           "./assets/img/products/product-48.jpg"
                         ],
-                        "varName": "",
-                        "varDescription": "Article 1",
-                        "color": "red",
-                        "size": "M",
+                        "varName": "Article_1",
+                        "varDescription": "Its in blue color.",
+                        "color": "Blue",
+                        "size": [
+                          "M",
+                          "L",
+                          "XL"
+                        ],
                         "sku": "#61590437"
                       },
                       {
@@ -63,11 +68,16 @@
                         "images": [
                           "./assets/img/products/product-48-y.jpg"
                         ],
-                        "varName": "",
-                        "varDescription": "Article 2",
-                        "color": "green",
-                        "size": "L",
-                        "sku": "#615907"
+                        "varName": "Article_2",
+                        "varDescription": "Its in yellow color.",
+                        "color": "Yellow",
+                        "size": [
+                          "S",
+                          "M",
+                          "L",
+                          "XL"
+                        ],
+                        "sku": "#61590438"
                       }
                     ]
                   }
