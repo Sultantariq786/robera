@@ -312,17 +312,20 @@
           <!-- Card -->
           <div class="card mb-7" data-toggle="card-collapse">
             <!-- Badge for Sale -->
-            <div *ngIf="product.filters.isForSale" class="badge badge-dark card-badge card-badge-left text-uppercase">
+            <div *ngIf="product.filters.isForSale && product.filters.inStock" class="badge badge-dark card-badge card-badge-left text-uppercase">
               Sale
             </div>
             <!-- Badge for New -->
-            <div *ngIf="product.filters.isNew" class="badge badge-light card-badge card-badge-left text-uppercase">
+            <div *ngIf="product.filters.isNew && product.filters.inStock" class="badge badge-light card-badge card-badge-left text-uppercase">
               New
             </div>
 
             <!-- Image -->
-            <a href="/product">
+            <a href="/product" class="imageWrap">
               <!-- <img src="assets/img/products/product-5.jpg" alt="..." class="card-img-top"> -->
+              <div *ngIf="!product.filters.inStock" class="soldOutImg">
+                <img src="{{../../../../assets/img/products/robera_soldout.png" alt="..." class="card-img-top">
+              </div>
               <img src="{{product?.displayImage}}" alt="..." class="card-img-top">
             </a>
 
@@ -339,7 +342,7 @@
 
                 <!-- Price -->
                 <ng-container>
-                  <div *ngIF="product.filters.discountedPrice" class="mb-1 font-weight-bold text-muted">
+                  <div class="mb-1 font-weight-bold text-muted">
                     <span class="font-size-xs text-gray-350 text-decoration-line-through">
                       ₹ {{product?.filters.price}}
                     </span>
@@ -402,7 +405,7 @@
                   </div>
                 </div> -->
               <!-- Footer -->
-              <div class="card-collapse collapse">
+              <div *ngIf="product?.filters.inStock" class="card-collapse collapse">
                 <div class="card-footer px-0 pt-0 bg-white text-center">
                   <div class="mb-1 font-weight-bold text-muted">
                     Shop this on:
