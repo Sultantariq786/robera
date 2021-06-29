@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProductService {
-    private url = '../../assets/data/data.json';
+    private url = '../../assets/data/products.json';
 
     constructor(private http: HttpClient) { }
 

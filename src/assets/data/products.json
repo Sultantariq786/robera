@@ -1,174 +1,724 @@
 {
   "products": [
-      {
-        "clothings": [
-          {
-            "women": [
-              {
-                "category": "Lehenga",
-                "varieties": [
-                  {
-                    "name": "Georgette Silk Suit",
-                    "tags": [
-                      "New"
-                    ],
-                    "material": "Georgette",
-                    "description": "",
-                    "price": "4300",
-                    "discountedPrice": "3485",
-                    "defaultArticle": "Article_1",
-                    "season": "All Season",
-                    "sizeAvailable": [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                    ],
-                    "colorsAvailable": [
-                      "Blue",
-                      "Yellow"
-                    ],
-                    "shopThisOn": [
-                      {
-                        "websites": "Amazon",
-                        "webIcon": "../../assets/img/icons/amazon.jpg",
-                        "shoppingUrl": ""
-                      },
-                      {
-                        "websites": "Flipkart",
-                        "webIcon": "../../assets/img/icons/flipkart.jpg",
-                        "shoppingUrl": ""
-                      },
-                      {
-                        "websites": "Myntra",
-                        "webIcon": "../../assets/img/icons/myntra.jpg",
-                        "shoppingUrl": ""
-                      }
-                    ],
-                    "variants": [
-                      {
-                        "inStock": true,
-                        "images": [
-                          "./assets/img/products/product-48.jpg"
-                        ],
-                        "varName": "Article_1",
-                        "varDescription": "Its in blue color.",
-                        "color": "Blue",
-                        "size": [
-                          "M",
-                          "L",
-                          "XL"
-                        ],
-                        "sku": "#61590437"
-                      },
-                      {
-                        "inStock": true,
-                        "images": [
-                          "./assets/img/products/product-48-y.jpg"
-                        ],
-                        "varName": "Article_2",
-                        "varDescription": "Its in yellow color.",
-                        "color": "Yellow",
-                        "size": [
-                          "S",
-                          "M",
-                          "L",
-                          "XL"
-                        ],
-                        "sku": "#61590438"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "clothings": [
-          {
-            "women": [
-              {
-                "category": "Lehenga",
-                "varieties": [
-                  {
-                    "name": "Georgette Silk Suit",
-                    "tags": [
-                      "New"
-                    ],
-                    "material": "Georgette",
-                    "description": "",
-                    "price": "4300",
-                    "discountedPrice": "3485",
-                    "defaultArticle": "Article_1",
-                    "season": "All Season",
-                    "sizeAvailable": [
-                      "S",
-                      "M",
-                      "L",
-                      "XL"
-                    ],
-                    "colorsAvailable": [
-                      "Blue",
-                      "Yellow"
-                    ],
-                    "shopThisOn": [
-                      {
-                        "websites": "Amazon",
-                        "webIcon": "../../assets/img/icons/amazon.jpg",
-                        "shoppingUrl": ""
-                      },
-                      {
-                        "websites": "Flipkart",
-                        "webIcon": "../../assets/img/icons/flipkart.jpg",
-                        "shoppingUrl": ""
-                      },
-                      {
-                        "websites": "Myntra",
-                        "webIcon": "../../assets/img/icons/myntra.jpg",
-                        "shoppingUrl": ""
-                      }
-                    ],
-                    "variants": [
-                      {
-                        "inStock": true,
-                        "images": [
-                          "./assets/img/products/product-48.jpg"
-                        ],
-                        "varName": "Article_1",
-                        "varDescription": "Its in blue color.",
-                        "color": "Blue",
-                        "size": [
-                          "M",
-                          "L",
-                          "XL"
-                        ],
-                        "sku": "#61590437"
-                      },
-                      {
-                        "inStock": true,
-                        "images": [
-                          "./assets/img/products/product-48-y.jpg"
-                        ],
-                        "varName": "Article_2",
-                        "varDescription": "Its in yellow color.",
-                        "color": "Yellow",
-                        "size": [
-                          "S",
-                          "M",
-                          "L",
-                          "XL"
-                        ],
-                        "sku": "#61590438"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
       }
-    ]
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    }
+  ]
 }
