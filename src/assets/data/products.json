@@ -13,7 +13,7 @@
           "discountedPrice": "2800",
           "size": ["M","L"],
           "brand": "Biba",
-          "colors": ["Blue", "Yellow"],
+          "colors": ["darkblue", "yellow"],
           "isNew": true,
           "isForSale": false,
           "inStock": true,
