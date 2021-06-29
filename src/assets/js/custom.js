@@ -1,4 +1,5 @@
 $(function() {
+    console.log("customJs called");
     // alert('run');
     var t = $('[data-toggle="card-collapse"]')
         , e = $(".card-collapse");

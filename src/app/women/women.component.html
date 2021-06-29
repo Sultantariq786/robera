@@ -306,7 +306,7 @@
   <div class="container">
     <div class="row">
 
-      <ng-container *ngFor="let product of womenProducts?.products; index as i">
+      <ng-container *ngFor="let product of womenProducts?.products; index as count">
         <div class="col-6 col-md-3 col-lg">
 
           <!-- Card -->
@@ -403,7 +403,7 @@
 
         </div>
         <!-- Divider -->
-        <!-- <div *ngIf="i * 10" class="w-100 d-none d-lg-block"></div> -->
+        <!-- <div *ngIf="'count === 10'" class="w-100 d-none d-lg-block"></div> -->
         <div class="w-100 d-none block"></div>
       </ng-container>
 

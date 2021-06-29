@@ -192,7 +192,7 @@ i.fa.fa-chevron-left, i.fa.fa-chevron-right {
 /* Media Query CUstom */
 
 @media (min-width: 992px) {
-  .w-100.d-none.block:nth-child(10), .w-100.d-none.block:nth-child(20), .w-100.d-none.block:nth-child(30), .w-100.d-none.block:nth-child(40), .w-100.d-none.block:nth-child(50), .w-100.d-none.block:nth-child(60), .w-100.d-none.block:nth-child(70), .w-100.d-none.block:nth-child(80) {
+  .w-100.d-none.block:nth-child(10n) {
     display: block !important;
   }
 }

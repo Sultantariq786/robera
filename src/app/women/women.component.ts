@@ -10,6 +10,7 @@ import { ProductService } from './../services/product.service';
 export class WomenComponent implements OnInit {
   womensPgResponse: any;
   womenProducts: any;
+  count: number = 0;
 
   constructor(private womenService: WomenService, private productService: ProductService) { }
 
