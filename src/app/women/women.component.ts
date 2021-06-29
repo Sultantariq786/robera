@@ -9,7 +9,7 @@ import { ProductService } from './../services/product.service';
 })
 export class WomenComponent implements OnInit {
   womensPgResponse: any;
-  womenProducts: any = [];
+  womenProducts: any;
 
   constructor(private womenService: WomenService, private productService: ProductService) { }
 
