@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "sku": "#0786123",
+      "name": "Georgette Suit",
+      "desc": "Semi Stiched Suit",
+      "displayImage": "./assets/img/products/product-48.jpg",
+      "displayImageAlt": "Georgette Suit Image",
+      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "variantsAvailable": true,
+      "filters": {
+          "price": "3750",
+          "discountedPrice": "2800",
+          "size": ["M","L"],
+          "brand": "Biba",
+          "colors": ["Blue", "Yellow"],
+          "isNew": true,
+          "isForSale": false,
+          "inStock": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    }
+  ]
+}

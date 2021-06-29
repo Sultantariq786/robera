@@ -30,7 +30,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/custom.js"
+              "src/assets/js/theme.min.js"
             ],
             "vendorChunk": true,
             "extractLicenses": false,

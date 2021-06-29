@@ -9,7 +9,8 @@ import { ProductService } from './../services/product.service';
 })
 export class WomenComponent implements OnInit {
   womensPgResponse: any;
-  womenProducts: any = [];
+  womenProducts: any;
+  count: number = 0;
 
   constructor(private womenService: WomenService, private productService: ProductService) { }
 
@@ -31,7 +32,7 @@ export class WomenComponent implements OnInit {
     this.productService.getProductsData().subscribe((response: any) => {
       if (response) {
         this.womenProducts = response;
-        console.log('Women Prod ', this.womenProducts);
+        console.log('Women Prod received', this.womenProducts);
       }
     });
   }

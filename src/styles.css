@@ -189,3 +189,10 @@ i.fa.fa-chevron-left, i.fa.fa-chevron-right {
 
 /* Theme Override CSS */
 
+/* Media Query CUstom */
+
+@media (min-width: 992px) {
+  .w-100.d-none.block:nth-child(10n) {
+    display: block !important;
+  }
+}

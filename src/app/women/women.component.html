@@ -305,103 +305,108 @@
 <section class="py-12">
   <div class="container">
     <div class="row">
-      <div class="col-6 col-md-3 col-lg">
 
-        <!-- Card -->
-        <div class="card mb-7" data-toggle="card-collapse">
+      <ng-container *ngFor="let product of womenProducts?.products; index as count">
+        <div class="col-6 col-md-3 col-lg">
 
-          <!-- Badge for Sale -->
-          <div class="badge badge-dark card-badge card-badge-left text-uppercase">
-            Sale
-          </div>
-          <!-- Badge for New -->
-          <div class="badge badge-light card-badge card-badge-left text-uppercase">
-            New
-          </div>
+          <!-- Card -->
+          <div class="card mb-7" data-toggle="card-collapse">
 
-          <!-- Image -->
-          <a href="/product">
-            <!-- <img src="assets/img/products/product-5.jpg" alt="..." class="card-img-top"> -->
-            <img src="{{womensPgResponse?.images[0]}}" alt="..." class="card-img-top">
-          </a>
-
-          <!-- Collapse -->
-          <div class="card-collapse-parent">
-
-            <!-- Body -->
-            <div class="card-body px-0 bg-white text-center">
-
-              <!-- Heading -->
-              <div class="mb-1 font-weight-bold">
-                <a class="text-body" href="/product">Blue Bridal Lehnga</a>
-              </div>
-
-              <!-- Price -->
-              <div class="mb-1 font-weight-bold text-muted">
-                ₹7575.00
-              </div>
-
-              <!-- Rating -->
-              <!-- <div class="rating font-size-xxs text-dark justify-content-center" data-value="3">
-                <div class="rating-item">
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="rating-item">
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="rating-item">
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="rating-item">
-                  <i class="fas fa-star"></i>
-                </div>
-                <div class="rating-item">
-                  <i class="fas fa-star"></i>
-                </div>
-              </div> -->
-              <div class="morecolors mt-1">More colors available</div>
-
+            <!-- Badge for Sale -->
+            <div class="badge badge-dark card-badge card-badge-left text-uppercase">
+              Sale
+            </div>
+            <!-- Badge for New -->
+            <div class="badge badge-light card-badge card-badge-left text-uppercase">
+              New
             </div>
 
-            <!-- Footer -->
-            <!-- <div class="card-collapse collapse">
-                <div class="card-footer px-0 pt-0 bg-white text-center">
-                  <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
-                    <i class="fe fe-eye"></i>
-                  </button>
-                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
-                    <i class="fe fe-shopping-cart"></i>
-                  </button>
-                  <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
-                    <i class="fe fe-heart"></i>
-                  </button>
+            <!-- Image -->
+            <a href="/product">
+              <!-- <img src="assets/img/products/product-5.jpg" alt="..." class="card-img-top"> -->
+              <img src="{{product?.displayImage}}" alt="..." class="card-img-top">
+            </a>
+
+            <!-- Collapse -->
+            <div class="card-collapse-parent">
+
+              <!-- Body -->
+              <div class="card-body px-0 bg-white text-center">
+
+                <!-- Heading -->
+                <div class="mb-1 font-weight-bold">
+                  <a class="text-body" href="/product">{{product?.name}}</a>
                 </div>
-              </div> -->
-            <!-- Footer -->
-            <div class="card-collapse collapse">
-              <div class="card-footer px-0 pt-0 bg-white text-center">
+
+                <!-- Price -->
                 <div class="mb-1 font-weight-bold text-muted">
-                  Shop this on:
+                  ₹7575.00
                 </div>
-                <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
-                  <img src="../../assets/img/icons/amazon.jpg" width="30" height="36" title="Amazon" />
-                </a>
-                <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="button">
-                  <img src="../../assets/img/icons/flipkart.jpg" width="30" height="36" title="Flipkart" />
-                </a>
-                <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="button">
-                  <img src="../../assets/img/icons/myntra.jpg" width="30" height="36" title="Myntra" />
-                </a>
+
+                <!-- Rating -->
+                <!-- <div class="rating font-size-xxs text-dark justify-content-center" data-value="3">
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="rating-item">
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div> -->
+                <div class="morecolors mt-1">More colors available</div>
+
               </div>
+
+              <!-- Footer -->
+              <!-- <div class="card-collapse collapse">
+                  <div class="card-footer px-0 pt-0 bg-white text-center">
+                    <button class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                      <i class="fe fe-eye"></i>
+                    </button>
+                    <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                      <i class="fe fe-shopping-cart"></i>
+                    </button>
+                    <button class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                      <i class="fe fe-heart"></i>
+                    </button>
+                  </div>
+                </div> -->
+              <!-- Footer -->
+              <div class="card-collapse collapse">
+                <div class="card-footer px-0 pt-0 bg-white text-center">
+                  <div class="mb-1 font-weight-bold text-muted">
+                    Shop this on:
+                  </div>
+                  <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="modal" data-target="#modalProduct">
+                    <img src="../../assets/img/icons/amazon.jpg" width="30" height="36" title="Amazon" />
+                  </a>
+                  <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <img src="../../assets/img/icons/flipkart.jpg" width="30" height="36" title="Flipkart" />
+                  </a>
+                  <a href="#!" class="btn btn-xs btn-link btn-circle" data-toggle="button">
+                    <img src="../../assets/img/icons/myntra.jpg" width="30" height="36" title="Myntra" />
+                  </a>
+                </div>
+              </div>
+
             </div>
 
           </div>
 
         </div>
+        <!-- Divider -->
+        <!-- <div *ngIf="'count === 10'" class="w-100 d-none d-lg-block"></div> -->
+        <div class="w-100 d-none block"></div>
+      </ng-container>
 
-      </div>
-
-      
       <div class="col-6 col-md-3 col-lg">
 
         <!-- Card -->

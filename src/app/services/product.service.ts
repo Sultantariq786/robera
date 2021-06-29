@@ -11,20 +11,14 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProductService {
-    private url = '../../assets/data/data.json';
+    private url = '../../assets/data/products.json';
 
     constructor(private http: HttpClient) { }
 
+    // Dummy JSON Call
     public getProductsData(){
       return this.http.get(this.url);
     }
-
-    // Dummy JSON Call
-    // getProductsData() {
-    //     let response;
-    //     response = require('../../assets/data/data.json');
-    //     return (new Observable(response));
-    // }
 
      // Actual Service Call
     //  getProductsData(): Observable<any> {
