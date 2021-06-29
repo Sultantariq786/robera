@@ -1,22 +1,841 @@
 {
   "products": [
     {
-      "sku": "#0786123",
-      "name": "Georgette Suit",
-      "desc": "Semi Stiched Suit",
-      "displayImage": "./assets/img/products/product-48.jpg",
-      "displayImageAlt": "Georgette Suit Image",
-      "productImages": ["./assets/img/products/product-48.jpg", "./assets/img/products/product-48-y.jpg"],
+      "sku": "#0786001",
+      "name": "Idalia Floral Set",
+      "desc": "Branded Idalia Soft Kurti plazzo set with beautiful floral design.",
+      "displayImage": "./assets/img/products/robera_1.jpg",
+      "displayImageAlt": "Idalia Kurti Plazzo Set",
+      "productImages": ["./assets/img/products/robera_1.jpg", "./assets/img/products/robera_1.jpg"],
+      "productDetail": "Branded Idalia Soft Kurti plazzo set with beautiful floral design.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "3500",
+          "discountedPrice": "750",
+          "size": ["L"],
+          "brand": "Idalia",
+          "colors": ["lightgreen"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurti Plazzo Sets",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786002",
+      "name": "Idalia Grey Kurti Set",
+      "desc": "Branded Idalia Soft Kurti plazzo set with beautiful design.",
+      "displayImage": "./assets/img/products/robera_2.jpg",
+      "displayImageAlt": "Idalia Kurti Plazzo Set",
+      "productImages": ["./assets/img/products/robera_2.jpg", "./assets/img/products/robera_2.jpg"],
+      "productDetail": "Branded Idalia Soft Kurti plazzo set with beautiful grey color.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "3250",
+          "discountedPrice": "750",
+          "size": ["XL"],
+          "brand": "Idalia",
+          "colors": ["grey"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurti Plazzo Sets",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786003",
+      "name": "Idalia Black Kurti Set",
+      "desc": "Branded Idalia Soft Kurti plazzo set with beautiful designer sleaves.",
+      "displayImage": "./assets/img/products/robera_3.jpg",
+      "displayImageAlt": "Idalia Kurti Plazzo Set",
+      "productImages": ["./assets/img/products/robera_3.jpg", "./assets/img/products/robera_3.jpg"],
+      "productDetail": "Branded Idalia Soft Kurti plazzo set with beautiful black color.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "3250",
+          "discountedPrice": "750",
+          "size": ["S"],
+          "brand": "Idalia",
+          "colors": ["black"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurti Plazzo Sets",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786004",
+      "name": "Blue Jaipuri Cotton Suit",
+      "desc": "Beautiful soft Jaipuri cotton readymade suit.",
+      "displayImage": "./assets/img/products/robera_4.jpg",
+      "displayImageAlt": "Jaipuri Cotton Suit",
+      "productImages": ["./assets/img/products/robera_4.jpg", "./assets/img/products/robera_4.jpg"],
+      "productDetail": "Beautiful soft Jaipuri cotton readymade suit.",
       "variantsAvailable": true,
       "filters": {
-          "price": "3750",
-          "discountedPrice": "2800",
-          "size": ["M","L"],
-          "brand": "Biba",
-          "colors": ["darkblue", "yellow"],
-          "isNew": true,
-          "isForSale": false,
+          "price": "2500",
+          "discountedPrice": "1200",
+          "size": ["M, L"],
+          "brand": "Jaipuri Cotton",
+          "colors": ["darkblue", "darkgreen"],
+          "isNew": false,
+          "isForSale": true,
           "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Jaipuri Cotton Suits",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786005",
+      "name": "Green Jaipuri Cotton Suit",
+      "desc": "Beautiful soft Jaipuri cotton readymade suit.",
+      "displayImage": "./assets/img/products/robera_5.jpg",
+      "displayImageAlt": "Jaipuri Cotton Suit",
+      "productImages": ["./assets/img/products/robera_5.jpg", "./assets/img/products/robera_5.jpg"],
+      "productDetail": "Beautiful soft Jaipuri cotton readymade suit.",
+      "variantsAvailable": true,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "1200",
+          "size": ["M, L"],
+          "brand": "Jaipuri Cotton",
+          "colors": ["darkgreen", "darkblue"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Jaipuri Cotton Suits",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786006",
+      "name": "L. Green Jaipuri Cotton Suit",
+      "desc": "Beautiful soft Jaipuri cotton readymade suit.",
+      "displayImage": "./assets/img/products/robera_6.jpg",
+      "displayImageAlt": "Jaipuri Cotton Suit",
+      "productImages": ["./assets/img/products/robera_6.jpg", "./assets/img/products/robera_6.jpg"],
+      "productDetail": "Beautiful soft Jaipuri cotton readymade suit.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "1200",
+          "size": ["M"],
+          "brand": "Jaipuri Cotton",
+          "colors": ["lightgreen"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Jaipuri Cotton Suits",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786007",
+      "name": "Greyish Black Cotton Suit",
+      "desc": "Beautiful soft cotton readymade suit.",
+      "displayImage": "./assets/img/products/robera_7.jpg",
+      "displayImageAlt": "Cotton Suit",
+      "productImages": ["./assets/img/products/robera_7.jpg", "./assets/img/products/robera_7.jpg"],
+      "productDetail": "Beautiful soft cotton readymade suit.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "1450",
+          "discountedPrice": "850",
+          "size": ["L"],
+          "brand": "",
+          "colors": ["darkgrey"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Cotton Suits",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786008",
+      "name": "Libas Kurti Pajama Set",
+      "desc": "Beautiful soft cotton readymade Kurti set.",
+      "displayImage": "./assets/img/products/robera_8.jpg",
+      "displayImageAlt": "Kurti Set",
+      "productImages": ["./assets/img/products/robera_8.jpg", "./assets/img/products/robera_8.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti set.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "1350",
+          "discountedPrice": "750",
+          "size": ["M"],
+          "brand": "Libas",
+          "colors": ["brown"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurti Sets",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786009",
+      "name": "Branded W Blue Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_9.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_9.jpg", "./assets/img/products/robera_9.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "3250",
+          "discountedPrice": "500",
+          "size": ["M", "L"],
+          "brand": "W",
+          "colors": ["darkblue"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786010",
+      "name": "Branded W Yellow Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_10.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_10.jpg", "./assets/img/products/robera_10.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "500",
+          "size": ["M"],
+          "brand": "W",
+          "colors": ["lightyellow"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786011",
+      "name": "Branded W Pink Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_11.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_11.jpg", "./assets/img/products/robera_11.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "500",
+          "size": ["M"],
+          "brand": "W",
+          "colors": ["pink"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786012",
+      "name": "Branded W Yellow Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_12.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_12.jpg", "./assets/img/products/robera_12.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "500",
+          "size": ["M", "L"],
+          "brand": "W",
+          "colors": ["yellow"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786013",
+      "name": "Branded W Red Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_13.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_13.jpg", "./assets/img/products/robera_13.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "500",
+          "size": ["M"],
+          "brand": "W",
+          "colors": ["red"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786014",
+      "name": "Branded W Blue Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_14.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_14.jpg", "./assets/img/products/robera_14.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "500",
+          "size": ["M"],
+          "brand": "W",
+          "colors": ["darkblue"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786015",
+      "name": "Branded W Yellow Kurti",
+      "desc": "Beautiful soft cotton readymade Kurti.",
+      "displayImage": "./assets/img/products/robera_15.jpg",
+      "displayImageAlt": "Kurti",
+      "productImages": ["./assets/img/products/robera_15.jpg", "./assets/img/products/robera_15.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Kurti.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "2500",
+          "discountedPrice": "500",
+          "size": ["M"],
+          "brand": "W",
+          "colors": ["yellow"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": true,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Kurtis",
+          "stichType": "Readymade",
+          "material": "Cotton", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786016",
+      "name": "Gharara Pattern Suit",
+      "desc": "Beautiful soft cotton readymade Suit.",
+      "displayImage": "./assets/img/products/robera_16.jpg",
+      "displayImageAlt": "Gharara Suit",
+      "productImages": ["./assets/img/products/robera_16.jpg", "./assets/img/products/robera_16.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Suit.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "4500",
+          "discountedPrice": "4500",
+          "size": ["XL"],
+          "brand": "",
+          "colors": ["orange"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": false,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Ghararas",
+          "stichType": "Readymade",
+          "material": "Georgette", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786016",
+      "name": "Gharara Pattern Suit",
+      "desc": "Beautiful soft cotton readymade Suit.",
+      "displayImage": "./assets/img/products/robera_16.jpg",
+      "displayImageAlt": "Gharara Suit",
+      "productImages": ["./assets/img/products/robera_16.jpg", "./assets/img/products/robera_16.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Suit.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "4500",
+          "discountedPrice": "4500",
+          "size": ["XL"],
+          "brand": "",
+          "colors": ["orange"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": false,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Ghararas",
+          "stichType": "Readymade",
+          "material": "Georgette", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786016",
+      "name": "Gharara Pattern Suit",
+      "desc": "Beautiful soft cotton readymade Suit.",
+      "displayImage": "./assets/img/products/robera_16.jpg",
+      "displayImageAlt": "Gharara Suit",
+      "productImages": ["./assets/img/products/robera_16.jpg", "./assets/img/products/robera_16.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Suit.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "4500",
+          "discountedPrice": "4500",
+          "size": ["XL"],
+          "brand": "",
+          "colors": ["orange"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": false,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Ghararas",
+          "stichType": "Readymade",
+          "material": "Georgette", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
+          "shopThisOn": [
+            {
+              "websites": "Amazon",
+              "webIcon": "../../assets/img/icons/amazon.jpg",
+              "ShoppingUrl": "https://www.amazon.com"
+            },
+            {
+              "websites": "Flipkart",
+              "webIcon": "../../assets/img/icons/flipkart.jpg",
+              "ShoppingUrl": "https://www.flipkart.com"
+            },
+            {
+              "websites": "Myntra",
+              "webIcon": "../../assets/img/icons/myntra.jpg",
+              "ShoppingUrl": "https://www.myntra.com"
+            }
+          ]
+      }
+    },
+    {
+      "sku": "#0786016",
+      "name": "Gharara Pattern Suit",
+      "desc": "Beautiful soft cotton readymade Suit.",
+      "displayImage": "./assets/img/products/robera_16.jpg",
+      "displayImageAlt": "Gharara Suit",
+      "productImages": ["./assets/img/products/robera_16.jpg", "./assets/img/products/robera_16.jpg"],
+      "productDetail": "Beautiful soft cotton readymade Suit.",
+      "variantsAvailable": false,
+      "filters": {
+          "price": "4500",
+          "discountedPrice": "4500",
+          "size": ["XL"],
+          "brand": "",
+          "colors": ["orange"],
+          "isNew": false,
+          "isForSale": true,
+          "inStock": false,
+          "shopFor": "Women",
+          "productType": "Clothing",
+          "category": "Ghararas",
+          "stichType": "Readymade",
+          "material": "Georgette", 
+          "season": "All Season",
+          "replaceable": true,
+          "returnable": true,
           "shopThisOn": [
             {
               "websites": "Amazon",
